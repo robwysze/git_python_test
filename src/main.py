@@ -5,4 +5,4 @@ def hello(what: str):
 if __name__ == '__main__':
     phrase = 'World'
     phrase = hello(what=phrase)
-    NewVariable = 0
+    Newvariable = 0
