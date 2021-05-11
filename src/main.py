@@ -1,7 +1,6 @@
-def hello(what: str):
-    return f'Hello {what}'
+from phrase import Phrase
 
 
 if __name__ == '__main__':
-    phrase = 'World'
-    phrase = hello(what=phrase)
+    phrase = Phrase()
+    print(phrase.hello_phrase())
