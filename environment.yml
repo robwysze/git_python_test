@@ -1,0 +1,9 @@
+name: git_actions
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pytest
+  - pre-commit=2.12.1
+  - flake8
+  - black
