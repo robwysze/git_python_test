@@ -1,6 +1,11 @@
 from phrase import Phrase
 
 
-if __name__ == "__main__":
+def main():
     phrase = Phrase()
-    print(phrase.hello_phrase())
+    result = phrase.hello_phrase()
+    print(f'{result}')
+
+
+if __name__ == "__main__":
+    main()
