@@ -1,10 +1,4 @@
 import pytest
-import sys
-import os.path
-
-sys.path.append(
-    os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir))
-)
 from git_python_test.phrase import Phrase
 
 
@@ -15,7 +9,7 @@ def test_init_value():
 
 def test_set_name():
     test_phrase = Phrase()
-    test_name = "test"
+    test_name = "tests"
     test_phrase.set_name(name=test_name)
 
     assert test_phrase.name == test_name
