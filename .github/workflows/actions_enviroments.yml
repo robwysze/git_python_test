@@ -1,4 +1,4 @@
-Run: Different enviroments
+name: Different enviroments
 
 on:
   push:
