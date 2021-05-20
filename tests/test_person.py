@@ -14,3 +14,11 @@ def test_introduce():
     quote = f"I'm {name}.\nI'm {age}."
     person = Person(name=name, age=age)
     assert person.introduce() == quote
+
+
+def test_say_my_name():
+    name = "Heisenberg"
+    age = 51
+    res = "You're Goddamn Right"
+    person = Person(name=name, age=age)
+    assert person.say_my_name() == res

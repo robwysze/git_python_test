@@ -12,3 +12,8 @@ class Person:
     def introduce(self):
         res = f"I'm {self.name}.\nI'm {self.age}."
         return res
+
+    def say_my_name(self):
+        if self.name.lower() == "heisenberg":
+            return "You're Goddamn Right"
+        return "My name is {n}".format(n=self.name)
