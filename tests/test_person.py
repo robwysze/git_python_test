@@ -16,9 +16,9 @@ def test_introduce():
     assert person.introduce() == quote
 
 
-def test_say_my_name():
-    name = "Heisenberg"
-    age = 51
-    res = "You're Goddamn Right"
-    person = Person(name=name, age=age)
-    assert person.say_my_name() == res
+# def test_say_my_name():
+#     name = "Heisenberg"
+#     age = 51
+#     res = "You're Goddamn Right"
+#     person = Person(name=name, age=age)
+#     assert person.say_my_name() == res
